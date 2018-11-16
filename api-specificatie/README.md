@@ -5,4 +5,25 @@ Hier vind je de API specificaties in drie verschillende formaten:
 
 In deze versie zijn nu handmatig enkele wijzigingen in het .yaml bestand doorgevoerd die niet in de .json bestanden zijn doorgevoerd. 
 Op hooflijnen zijn dit :
-* Enkele toevoegingen op de resource schema-componenten op deze API-sepcificatie ook linked data compliant te maken. 
+
+- Aan iedere bericht body is toegevoegd:
+
+  - Een @context body 
+
+     ofwel een link, met een mapping speciaal voor de klasse / resourcetype van het hoofdobject. Maak deze link beschikbaar in de buurt van de namespace met een download naar een context JSON bestand zoals in de bijlage.
+
+  - Een @type veld       
+
+    met daarin een link naar de klassedefinitie op VNG site
+
+  - Een @id       
+
+    met een link naar het item zelf (_self)
+
+- Aan iedere _links is toegvoegd:
+
+  - @id
+
+- In de @context moet staan:
+
+  - De mapping naar alle losse keys die in de JSON voorkomen

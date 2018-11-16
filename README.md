@@ -2,7 +2,7 @@
 
 De Open Api Specificatie voor Open Raadsinformatie beschrijft de standaard voor het ontsluiten van Raadsinformatie van gemeenten.
 
-Startpunt voor informatiemodellen van gegevens in de berichten is RSGB 3.
+De API is gebaseerd op het informatiemodel [Open Raadsinformatie](https://www.gemmaonline.nl/index.php/Open_RaadsInformatie).
 
 Startpunt voor technische uitwisselafspraken voor de te ontwikkelen RESTfull API operaties is de overheidsbrede API strategie en overheidsbrede URI strategie (beiden nog in ontwikkeling.
 
@@ -13,7 +13,7 @@ Startpunt voor technische uitwisselafspraken voor de te ontwikkelen RESTfull API
 * Hoe u kunt bijdragen
 * Omgangsvormen
 * [Technische specificaties](https://github.com/VNG-Realisatie/Openraadsinformatie/tree/master/api-specificatie) (Open API Specificaties en JSON schema) en op [SwaggerHub](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/VNG-Realisatie/Open-Raadsinformatie/master/api-specificatie/openapi.yaml)
-* Ontwerpkeuzes staan in het document [Design decisions](https://github.com/VNG-Realisatie/Open-Raadsinformatie/blob/master/docs/design_decisions.md)
+* Ontwerpkeuzes staan in het document Design decisions
 
 ## Bronnen
 * Informatiemodel RSGB (in ontwikkeling)
